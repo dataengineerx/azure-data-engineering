@@ -1,0 +1,18 @@
+{
+    "python.testing.pytestArgs": [
+        "app"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "sqltools.connections": [
+        {
+            "connectionMethod": "Hostname and Token",
+            "catalog": "azdatabricks",
+            "previewLimit": 50,
+            "driver": "Databricks",
+            "name": "azdatabricks",
+            "host": "adb-8863332915497088.8.azuredatabricks.net",
+            "path": "/sql/protocolv1/o/8863332915497088/0320-143354-z9ah3hvb"
+        }
+    ]
+}

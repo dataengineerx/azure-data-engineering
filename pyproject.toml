@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "azure-data-engineering"
+version = "0.1.0"
+description = ""
+authors = ["dataengineer101 <sunnyjainse@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "app" }]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+apache-airflow = "^2.8.3"
+apache-airflow-providers-apache-spark = "^4.7.1"
+dbt-databricks = "^1.7.10"
+apache-airflow-providers-databricks = "^6.2.0"
+delta-spark = "^3.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
